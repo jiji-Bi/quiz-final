@@ -1,0 +1,35 @@
+Both GET and POST
+method is used to transfer data
+from client to server in HTTP protocol 
+but Main difference between POST and GET method is 
+that GET carries request parameter appended in URL string 
+while POST carries request parameter in message body which 
+makes it more secure way of transferring data from client to ...
+
+JWT : 
+
+We can summarise above picture into following points:
+A client sends username/password combination to the server
+The server validates the authentication
+If authentication is successful, the server creates a JWT token else establishes an error response
+On successful authentication, the client gets JWT token in the response body
+Client stores that token in local storage or session storage.
+From next time, the client for making any request supplies the JWT token in request headers like this. Authorization: Bearer <jwt_token>
+Server upon receiving the JWT validates it and sends the successful response else error.
+You might be wondering ‘Everything is clear to me except how the server is generating JWT?’. JWT token creation is a vast and beautiful topic, and you get a whole lot of details here. https://jwt.io/introduction/
+After reading that whole algorithm to generate tokens, you might be tempted to write your functionality. Hold on! There are many libraries available in different languages developed already. You plug them, and you get two main functionalities to generating JWT, validate JWT, etc.
+Here I pick an NPM library called jsonwebtoken which is suggested by the JWT website rather than re-inventing the wheel.
+
+
+The componentDidMount () method allows us to execute the React code when the
+ component is already placed in the DOM (Document Object Model).
+  This method is called during the Mounting phase of the React Life-cycle i.e after the component is rendered.
+
+
+
+  The updateOne () method allows you to update a single document that satisfies a condition.
+   The following shows the syntax of the updateOne () method: The filter is a document that specifies the criteria for the update.
+    If the filter matches multiple documents, then the updateOne () method updates only the first document.
+
+La méthode filter() crée et retourne un nouveau tableau contenant tous les éléments du tableau d'origine qui remplissent une condition déterminée par la fonction callback.
+

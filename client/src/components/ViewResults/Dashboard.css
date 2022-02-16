@@ -1,0 +1,29 @@
+
+
+.title {
+    text-align: center;
+  }
+  
+  .App.form {
+    border: solid black 1px;
+  }
+  
+  .App.elem {
+    overflow: scroll;
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    width: 100%;
+    overflow: scroll;
+    height: 100vh;
+  }
+  
+  .charts {
+    text-align: center;
+  }
+  
+  .chart {
+    border: solid #589636 1px;
+    margin: 5px;
+    display: inline-block;
+  }
